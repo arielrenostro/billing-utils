@@ -63,7 +63,7 @@ nubank_categories_by_place = {
   'Mini Kalzone Neumarkt': 'Delivery',
   'Dva Pneus': 'Carro',
   'Paygo*Kenko': 'Delivery',
-  'Paypal *Vibra': 'Carro',
+  'regexp:(.+)?Paypal\\s\\*Vibra': 'Carro',
   "Aliexpress": 'Verificar',
   "regexp:^Ebn\\*Cambly.*": 'Pessoal',
   "regexp:^Pag\\*Steam.*": 'Pessoal',
@@ -74,6 +74,17 @@ nubank_categories_by_place = {
   "regexp:^Mercadolivre\\*.+": 'Verificar',
   'Madeiro Neumarkt': 'Verificar',
   'Café Frente Vila': 'Delivery',
+  'Taketa Pastelaria': 'Delivery',
+  'Quiosq. Estrela do Mar': 'Delivery',
+  'Supermercados Angeloni': 'Mercado',
+  'Proesi': 'Pessoal',
+  'Ifood *Ifood': 'Delivery',
+  'regexp:.*iFood.*': 'Delivery',
+  'Seuporco': 'Delivery',
+  'Restaurante Chines': 'Delivery',
+  'Quickstop Cafe': 'Delivery',
+  'Giassi Farmacia': 'Pessoal',
+  'Poraocomedyclub': 'Lazer',
 }
 
 nubank_categories_translate = {
